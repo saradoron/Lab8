@@ -15,7 +15,7 @@ describe('Basic user flow for SPA ', () => {
 
   // test 2 is given
   it('Test2: Make sure <journal-entry> elements are populated', async () => {
-    /*let allArePopulated = true;
+    let allArePopulated = true;
     let data, plainValue;
     const entries = await page.$$('journal-entry');
     for (let i = 0; i < entries.length; i++) {
@@ -25,7 +25,7 @@ describe('Basic user flow for SPA ', () => {
       if (plainValue.date.length == 0) { allArePopulated = false; }
       if (plainValue.content.length == 0) { allArePopulated = false; }
     }
-    expect(allArePopulated).toBe(true);*/
+    expect(allArePopulated).toBe(true);
   }, 30000);
 
   it('Test3: Clicking first <journal-entry>, new URL should contain /#entry1', async () => {
